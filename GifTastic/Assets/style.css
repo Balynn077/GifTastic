@@ -1,0 +1,48 @@
+body{
+    padding: 30px;
+}
+
+
+.topicPanel > .panel-heading{
+    color: white;
+    font-weight: bold;
+    background-color: lightblue;
+    border-color: lightblue;
+    cursor: pointer;
+}
+
+#addMorePanel> .panel-heading, #heroPanel > .panel-heading, #favPanel > .panel-heading{
+    background-color:navy;
+    border-color: navy;
+    color: white;
+}
+
+.resultDiv{
+    float: left;
+    margin: 10px;
+}
+
+.btn{
+    margin: 5px;
+
+}
+
+.btnTopic{
+    background-color: grey;
+    border-color: grey;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+.clicked, .btnTopic:active, .btnTopic:focus, .btnTopic:hover{
+    background-color:grey;
+    border-color: grey;
+    filter: brightness(65%);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-style: solid;
+    outline: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
